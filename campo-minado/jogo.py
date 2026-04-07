@@ -9,18 +9,20 @@ jogo = []
 apostas = []
 pontos = 0
 
+numeros = ["0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣"]
+
 def preenche_matriz():
-    for i in range(5):
+    for i in range(9):
         jogo.append([])
         apostas.append([])
-        for _ in range(5):
+        for _ in range(9):
             jogo[i].append("🟢")
             apostas[i].append("❌")
     
     bombas = 0
-    while bombas < 3:
-        linha = random.randint(0, 4)
-        coluna = random.randint(0, 4)
+    while bombas < 10:
+        linha = random.randint(0, 8)
+        coluna = random.randint(0, 8)
 
         if jogo[linha][coluna] != "💣":
             jogo[linha][coluna] = "💣"
@@ -31,10 +33,10 @@ preenche_matriz()
 # print(apostas)
 
 def mostra_apostas():
-    print("   1   2   3   4   5")
-    for i in range(5):
+    print("   1   2   3   4   5   6   7   8   9")
+    for i in range(9):
         print(i+1, end="")
-        for j in range(5):
+        for j in range(9):
             print(f" {apostas[i][j]} ", end="")
         print("\n")
 
@@ -52,23 +54,54 @@ def faz_aposta():
         y = int(posicao[1])-1
         try:
             if apostas[x][y] == "❌":
-                apostas[x][y] = jogo[x][y]
-                break
+                cont = verifica_vizinhos(x, y)
+                print(f"{cont} cont")
+                if cont == 0:
+                    revela_vizinhos(x, y)
+                    apostas[x][y] = f" {cont}" #tive que colocar um espaço do lado do numero para não distorcer o tabuleiro
+                else: 
+                    apostas[x][y] = f" {cont}"
             else:
                 print("Coordenada já foi utilizada")
                 time.sleep(2)
         except IndexError:
             print("Coordenada inválida. Repita")
             time.sleep(2)
-    return x, y
+        
+        return x, y
 
-bombas = 3
+bombas = 10
+cont = 0
+
+def verifica_vizinhos(x, y):
+    cont = 0
+
+    for l in range(-1, 2): #-1 até 1
+        for c in range(-1, 2):
+            v_x = x + l
+            v_y = y + c
+            if l == 0 and c == 0: #coordenada que o jogador passou
+                continue
+            if 0 <= v_x < 9 and 0 <= v_y < 9: #faz com que o a linha 9 não seja considerada vizinha da 1
+                if jogo[v_x][v_y] == "💣":
+                    cont += 1
+
+    return cont
+
+def revela_vizinhos(x, y):
+    for l in range(-1, 2): #-1 até 1
+        for c in range(-1, 2):
+            v_x = x + l
+            v_y = y + c
+            if 0 <= v_x < 9 and 0 <= v_y < 9: #faz com que o a linha 9 não seja considerada vizinha da 1
+                apostas[v_x][v_y] = jogo[v_x][v_y]
+
 
 while True:
     x, y = faz_aposta()
     mostra_apostas()
 
-    if jogo[x][y] == "🟢":
+    if jogo[x][y] != "💣":
         pontos += 10
         os.system("cls")
         print("Parabéns, nenhuma bomba explodia!")

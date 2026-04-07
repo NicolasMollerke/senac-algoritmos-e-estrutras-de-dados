@@ -1,0 +1,100 @@
+AEROPORTO;Local de pouso e decolagem de avioes
+ALFABETO;Conjunto de letras de uma lingua
+ALPINISTA;Pessoa que escala montanhas
+AMANHECER;Momento em que o sol nasce
+AMIZADE;Sentimento de afeicao entre amigos
+AMPULHETA;Relogio antigo que usa areia
+ANACONDA;Uma das maiores serpentes do mundo
+ANATOMIA;Estudo da estrutura do corpo humano
+ANDORINHA;Passaro conhecido por migrar no inverno
+ANIVERSARIO;Celebracao de mais um ano de vida
+APELIDO;Nome informal dado a alguem
+APOCALIPSE;Evento que descreve o fim do mundo
+AQUARIO;Recipiente de vidro para peixes
+ARQUITETO;Profissional que projeta predios
+ARTEFATO;Objeto produzido por seres humanos
+ASPIRADOR;Aparelho que suga po e sujeira
+ASTEROIDE;Corpo rochoso que orbita o sol
+ATLETISMO;Esporte que envolve corrida e saltos
+AVENTURA;Experiencia perigosa e emocionante
+BACHAREL;Titulo de quem conclui faculdade
+BANDEIRA;Simbolo visual de um pais
+BANQUETE;Grande refeicao festiva
+BARBATANA;Parte do corpo usada pelos peixes para nadar
+BATERISTA;Musico que toca percussao
+BETERRABA;Vegetal de cor roxa intensa
+BICICLETA;Veiculo de duas rodas movido a pedal
+BINOCULO;Instrumento para ver coisas distantes
+BIOLOGIA;Ciencia que estuda os seres vivos
+BORBOLETA;Inseto que passa por metamorfose
+BRASILEIRO;Quem nasce no maior pais da America Latina
+BRILHANTE;Objeto que reflete muita luz
+CACHOEIRA;Queda d'agua natural
+CADERNO;Objeto usado para fazer anotacoes
+CALENDARIO;Sistema que marca os dias e meses
+CAMELO;Animal do deserto com corcovas
+CAMINHOTE;Veiculo grande usado para carga
+CAMPEONATO;Competicao para decidir um vencedor
+CANTEIRO;Espaco no jardim para flores
+CARAVELA;Antigo navio de madeira com velas
+CARNAVAL;Festa popular famosa no Brasil
+CARPINTERO;Profissional que trabalha com madeira
+CARRINHO;Veiculo pequeno para criancas ou compras
+CASTELO;Residencia fortificada de reis
+CATALAGO;Lista organizada de produtos ou nomes
+CAVALARIA;Grupo de soldados que montam cavalos
+CEGONHA;Ave que a lenda diz trazer os bebes
+CELULAR;Aparelho movel de comunicacao
+CENTAURO;Criatura mitica metade homem metade cavalo
+CHOCOLATE;Doce feito a partir do cacau
+CILINDRO;Forma geometrica alongada e circular
+COMODIDADE;Qualidade do que e confortavel
+COMPUTADOR;Maquina usada para processar dados
+CONQUISTA;Ato de conseguir algo dificil
+CONSELHO;Sugestao dada para ajudar alguem
+CONTRATO;Acordo formal entre duas partes
+CURIOSIDADE;Desejo intenso de aprender algo
+DESAFIO;Tarefa dificil que exige esforco
+DESENHO;Representacao visual em papel
+DESERTO;Local seco com muita areia
+DIAMANTE;Pedra preciosa muito dura e cara
+DINOSSAURO;Animal gigante que viveu na pre-historia
+DIPLOMATA;Representante de um pais no exterior
+DISCIPLINA;Obediencia a regras e normas
+ELEFANTE;Maior mamifero terrestre atual
+ELEVADOR;Equipamento que transporta pessoas entre andares
+ENVELOPE;Papel usado para guardar cartas
+ESCADA;Objeto usado para subir ou descer
+ESCOVA;Objeto usado para limpar dentes ou cabelo
+ESCRITOR;Pessoa que escreve livros
+ESPANHOL;Lingua falada na Espanha e Argentina
+ESPELHO;Superficie que reflete a imagem
+ESQUELETO;Conjunto de ossos do corpo
+ESTRELA;Corpo celeste que brilha no ceu
+ESTRUTURA;Base que sustenta uma construcao
+FERRAMENTA;Objeto usado para consertos
+FERROVIA;Caminho por onde passa o trem
+FLORESTA;Grande area coberta por arvores
+FORMIGUEIRO;Casa subterranea das formigas
+FOTOGRAFO;Profissional que tira fotos
+FRIGIDEIRA;Utensilio de cozinha para fritar
+GAFANHOTO;Inseto verde que salta alto
+GELADEIRA;Eletrodomestico que conserva alimentos
+GIGANTE;Ser de tamanho muito superior ao normal
+GIRASSOL;Flor amarela que segue a luz do sol
+GOLFINHO;Mamifero marinho muito inteligente
+GUITARRA;Instrumento musical de cordas eletrico
+HELICOPTERO;Aeronave com helices no topo
+HORIZONTE;Linha onde o ceu parece tocar a terra
+HOSPITAL;Local onde se cuida de doentes
+IMPRESSORA;Maquina que passa texto para o papel
+INVENTOR;Pessoa que cria algo novo
+JARDINEIRO;Pessoa que cuida de plantas e flores
+LABIRINTO;Lugar com muitos caminhos confusos
+LANTERNA;Objeto portatil que produz luz
+MERGULHADOR;Pessoa que explora o fundo do mar
+MONTANHA;Grande elevacao natural do terreno
+MORCEGO;Unico mamifero que voa
+ORQUESTRA;Grupo de musicos que tocam juntos
+PANTANAL;Bioma brasileiro conhecido por ser alagado
+PRESENTE;Algo que se ganha em datas especiais
